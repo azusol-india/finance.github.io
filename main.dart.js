@@ -50251,7 +50251,6 @@ N(){var s=null,r="Please Select",q=t.s
 return new A.WS(new A.fx(s,r,s),A.aKD(r),new A.qd(r),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.b([],q),A.b([],q),A.b([],q),[],B.o)},
 gcL(a){return this.c}}
 A.WS.prototype={
-X(){this.a9()},
 l(a){this.am(0)},
 B(c8,c9){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7=this,b8=null,b9="Name",c0="\u2022",c1=1073741823,c2="HSN Code",c3="Max. Qty",c4="Sale Price",c5="Product Description",c6="Up-Sell Products",c7="Cross-Sell Products"
 if(A.cY(c9).cK("TABLET")){s=!1
@@ -54055,9 +54054,8 @@ $S:0}
 A.aBN.prototype={
 $0(){var s=0,r=A.w(t.H),q=this
 var $async$$0=A.r(function(a,b){if(a===1)return A.t(b,r)
-while(true)switch(s){case 0:s=2
-return A.y(new A.bU(null).bV(q.a,new A.Bh("Add Product",null)),$async$$0)
-case 2:return A.u(null,r)}})
+while(true)switch(s){case 0:new A.bU(null).bV(q.a,new A.Bh("Add Product",null))
+return A.u(null,r)}})
 return A.v($async$$0,r)},
 $S:4}
 A.aBL.prototype={
