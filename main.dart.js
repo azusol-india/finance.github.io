@@ -9786,24 +9786,26 @@ this.b=b},
 aG4:function aG4(){},
 Bg:function Bg(a,b){this.c=a
 this.a=b},
-WP:function WP(a,b,c,d,e,f,g,h,i,j,k,l){var _=this
+WP:function WP(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o){var _=this
 _.e=_.d=!1
-_.w=_.r=_.f=null
-_.x=a
-_.y=b
+_.f=a
+_.r=b
+_.w=c
+_.x=d
+_.y=e
 _.z=!1
 _.Q=null
-_.as=c
-_.at=d
-_.ax=e
-_.ay=f
-_.ch=g
-_.CW=h
-_.cx=i
-_.cy=j
-_.db=k
+_.as=f
+_.at=g
+_.ax=h
+_.ay=i
+_.ch=j
+_.CW=k
+_.cx=l
+_.cy=m
+_.db=n
 _.a=null
-_.b=l
+_.b=o
 _.c=null},
 ar6:function ar6(a){this.a=a},
 ar5:function ar5(){},
@@ -9851,31 +9853,34 @@ this.b=b},
 arf:function arf(){},
 Bh:function Bh(a,b){this.c=a
 this.a=b},
-WS:function WS(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0){var _=this
+WS:function WS(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3){var _=this
 _.d=!1
-_.w=a
-_.x=b
-_.y=c
-_.z=d
-_.Q=e
-_.as=f
-_.at=g
-_.ax=h
-_.ay=i
-_.ch=j
-_.CW=k
-_.cx=l
-_.cy=m
-_.db=n
-_.dx=o
-_.dy=p
-_.fr=q
-_.fx=r
+_.e=a
+_.f=b
+_.r=c
+_.w=d
+_.x=e
+_.y=f
+_.z=g
+_.Q=h
+_.as=i
+_.at=j
+_.ax=k
+_.ay=l
+_.ch=m
+_.CW=n
+_.cx=o
+_.cy=p
+_.db=q
+_.dx=r
+_.dy=s
+_.fr=a0
+_.fx=a1
 _.go="No file chosen"
 _.id=null
-_.k1=s
+_.k1=a2
 _.a=_.k2=null
-_.b=a0
+_.b=a3
 _.c=null},
 asu:function asu(a){this.a=a},
 ast:function ast(a,b){this.a=a
@@ -9912,20 +9917,21 @@ this.c=c},
 ask:function ask(){},
 Bi:function Bi(a,b){this.c=a
 this.a=b},
-WT:function WT(a,b,c,d,e,f,g,h,i){var _=this
-_.e=a
+WT:function WT(a,b,c,d,e,f,g,h,i,j){var _=this
+_.d=a
+_.e=b
 _.f=null
 _.r=!1
 _.w=null
-_.x=b
-_.y=c
-_.z=d
-_.Q=e
-_.as=f
-_.at=g
-_.ax=h
+_.x=c
+_.y=d
+_.z=e
+_.Q=f
+_.as=g
+_.at=h
+_.ax=i
 _.a=null
-_.b=i
+_.b=j
 _.c=null},
 asL:function asL(a){this.a=a},
 asK:function asK(){},
@@ -9998,24 +10004,26 @@ aqR:function aqR(){},
 aqS:function aqS(){},
 Bj:function Bj(a,b){this.c=a
 this.a=b},
-WW:function WW(a,b,c,d,e,f,g,h,i,j,k,l){var _=this
+WW:function WW(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o){var _=this
 _.e=_.d=!1
-_.w=_.r=_.f=null
-_.x=a
-_.y=b
+_.f=a
+_.r=b
+_.w=c
+_.x=d
+_.y=e
 _.z=!1
 _.Q=null
-_.as=c
-_.at=d
-_.ax=e
-_.ay=f
-_.ch=g
-_.CW=h
-_.cx=i
-_.cy=j
-_.db=k
+_.as=f
+_.at=g
+_.ax=h
+_.ay=i
+_.ch=j
+_.CW=k
+_.cx=l
+_.cy=m
+_.db=n
 _.a=null
-_.b=l
+_.b=o
 _.c=null},
 atj:function atj(a){this.a=a},
 ati:function ati(){},
@@ -49869,7 +49877,7 @@ $0(){},
 $S:0}
 A.Bg.prototype={
 N(){var s=null,r="Please select",q=t.H7
-return new A.WP(A.b([],q),A.b([],q),A.ao(s),A.ao(s),new A.lv(r),new A.fx(s,r,s),new A.fx(s,r,s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),B.o)},
+return new A.WP([],[],[],A.b([],q),A.b([],q),A.ao(s),A.ao(s),new A.lv(r),new A.fx(s,r,s),new A.fx(s,r,s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),B.o)},
 gcL(a){return this.c}}
 A.WP.prototype={
 X(){this.a9()
@@ -50248,7 +50256,7 @@ $0(){},
 $S:0}
 A.Bh.prototype={
 N(){var s=null,r="Please Select",q=t.s
-return new A.WS(new A.fx(s,r,s),A.aKD(r),new A.qd(r),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.b([],q),A.b([],q),A.b([],q),[],B.o)},
+return new A.WS([],[],[],new A.fx(s,r,s),A.aKD(r),new A.qd(r),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.b([],q),A.b([],q),A.b([],q),[],B.o)},
 gcL(a){return this.c}}
 A.WS.prototype={
 l(a){this.am(0)},
@@ -50268,16 +50276,16 @@ l=A.f(b8,A.ap(!0,B.x,!1,b8,b7.as,b8,b8,b8,2,new A.K().a4(b9,b9,5),!0,b8,!0,b8,!1
 k=s?new A.d(0,0,20,0):new A.d(0,0,0,20)
 j=A.x(b8,b8,b8,b8,b8,b8,b8,b8,b8,b8,b8,14,b8,b8,b8,b8,!0,b8,b8,b8,b8,b8,b8,b8,b8)
 i=t.b
-k=A.bD(A.b([new A.W(l,c1,c1,!0,1,b8,B.m,b8,b8),new A.W(A.f(b8,A.ap(!0,B.x,!1,b8,b7.at,b8,b8,b8,2,new A.K().a4("SKU","SKU",5),!0,b8,!0,b8,!1,b8,b8,b8,b8,b8,!0,b8,1,b8,!1,c0,b8,b8,b8,b8,!1,b8,b8,B.v,b8,b8,b8,b8,b8,b8,j,B.t,b8,B.w,b8,b8,b8),B.c,b8,b8,new A.K().aj(),b8,b8,k,b8,b8,b8,b8),c1,c1,!0,1,b8,B.m,b8,b8),new A.W(A.dr("Brand",b8,new A.asv(b7),b7.w),c1,c1,!0,1,b8,B.m,b8,b8)],i),B.f,B.h,r,B.f,B.h)
+k=A.bD(A.b([new A.W(l,c1,c1,!0,1,b8,B.m,b8,b8),new A.W(A.f(b8,A.ap(!0,B.x,!1,b8,b7.at,b8,b8,b8,2,new A.K().a4("SKU","SKU",5),!0,b8,!0,b8,!1,b8,b8,b8,b8,b8,!0,b8,1,b8,!1,c0,b8,b8,b8,b8,!1,b8,b8,B.v,b8,b8,b8,b8,b8,b8,j,B.t,b8,B.w,b8,b8,b8),B.c,b8,b8,new A.K().aj(),b8,b8,k,b8,b8,b8,b8),c1,c1,!0,1,b8,B.m,b8,b8),new A.W(A.dr("Brand",b7.e,new A.asv(b7),b7.w),c1,c1,!0,1,b8,B.m,b8,b8)],i),B.f,B.h,r,B.f,B.h)
 j=A.O(b8,20,b8)
 l=s?new A.d(0,0,20,0):new A.d(0,0,0,20)
-l=A.f(b8,A.dr("Category",b8,new A.asw(b7),b7.x),B.c,b8,b8,b8,b8,b8,l,b8,b8,b8,b8)
+l=A.f(b8,A.dr("Category",b7.f,new A.asw(b7),b7.x),B.c,b8,b8,b8,b8,b8,l,b8,b8,b8,b8)
 h=s?new A.d(0,0,20,0):new A.d(0,0,0,20)
 g=A.x(b8,b8,b8,b8,b8,b8,b8,b8,b8,b8,b8,14,b8,b8,b8,b8,!0,b8,b8,b8,b8,b8,b8,b8,b8)
 h=A.f(b8,A.ap(!0,B.x,!1,b8,b7.ax,b8,b8,b8,2,new A.K().a4(c2,c2,5),!0,b8,!0,b8,!1,b8,b8,b8,b8,b8,!0,b8,1,b8,!1,c0,b8,b8,b8,b8,!1,b8,b8,B.v,b8,b8,b8,b8,b8,b8,g,B.t,b8,B.w,b8,b8,b8),B.c,b8,b8,new A.K().aj(),b8,b8,h,b8,b8,b8,b8)
 g=s?new A.d(0,0,20,0):new A.d(0,0,0,20)
 f=A.x(b8,b8,b8,b8,b8,b8,b8,b8,b8,b8,b8,14,b8,b8,b8,b8,!0,b8,b8,b8,b8,b8,b8,b8,b8)
-g=A.bD(A.b([new A.W(l,c1,c1,!0,2,b8,B.m,b8,b8),new A.W(h,c1,c1,!0,1,b8,B.m,b8,b8),new A.W(A.f(b8,A.ap(!0,B.x,!1,b8,b8,b8,b8,b8,2,new A.K().a4("Tax %","Tax %",5),!0,b8,!0,b8,!1,b8,b8,b8,b8,b8,!0,b8,1,b8,!1,c0,b8,b8,b8,b8,!1,b8,b8,B.v,b8,b8,b8,b8,b8,b8,f,B.t,b8,B.w,b8,b8,b8),B.c,b8,b8,new A.K().aj(),b8,b8,g,b8,b8,b8,b8),c1,c1,!0,1,b8,B.m,b8,b8),new A.W(A.dr("UOM",b8,new A.asB(b7),b7.y),c1,c1,!0,2,b8,B.m,b8,b8)],i),B.f,B.h,r,B.f,B.h)
+g=A.bD(A.b([new A.W(l,c1,c1,!0,2,b8,B.m,b8,b8),new A.W(h,c1,c1,!0,1,b8,B.m,b8,b8),new A.W(A.f(b8,A.ap(!0,B.x,!1,b8,b8,b8,b8,b8,2,new A.K().a4("Tax %","Tax %",5),!0,b8,!0,b8,!1,b8,b8,b8,b8,b8,!0,b8,1,b8,!1,c0,b8,b8,b8,b8,!1,b8,b8,B.v,b8,b8,b8,b8,b8,b8,f,B.t,b8,B.w,b8,b8,b8),B.c,b8,b8,new A.K().aj(),b8,b8,g,b8,b8,b8,b8),c1,c1,!0,1,b8,B.m,b8,b8),new A.W(A.dr("UOM",b7.r,new A.asB(b7),b7.y),c1,c1,!0,2,b8,B.m,b8,b8)],i),B.f,B.h,r,B.f,B.h)
 f=A.O(b8,20,b8)
 h=A.f(B.P,B.Wl,B.c,b8,b8,new A.R(B.B,b8,A.aw(B.z,0.5),b8,b8,b8,B.n),b8,b8,b8,new A.d(10,10,10,10),b8,b8,b8)
 l=A.O(b8,20,b8)
@@ -50452,7 +50460,7 @@ $0(){},
 $S:0}
 A.Bi.prototype={
 N(){var s=null
-return new A.WT(new A.pc("Please Select"),A.b([],t.H7),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),B.o)},
+return new A.WT([],new A.pc("Please Select"),A.b([],t.H7),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),B.o)},
 gcL(a){return this.c}}
 A.WT.prototype={
 B(d3,d4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8=this,a9=null,b0="Document No.",b1="\u2022",b2=1073741823,b3="Purchase Date",b4="Vendor Name",b5="Vendor Gst",b6="Vendor Address",b7="Base Value",b8="Total Tax",b9="Total Amount",c0="Product Name",c1="Product No. / SKU",c2="Batch No.",c3="HSN Code",c4="Quantity",c5="Unit Price",c6="CESS",c7="Total Tax Amount",c8="Transporter Name",c9="Vehicle No.",d0="Distance",d1="Eway Bill No.",d2="Drop your file here"
@@ -50464,7 +50472,7 @@ r=A.O(a9,20,a9)
 q=A.f(B.P,B.Wx,B.c,a9,a9,new A.R(B.B,a9,A.aw(B.z,0.5),a9,a9,a9,B.n),a9,a9,a9,new A.d(10,10,10,10),a9,a9,a9)
 p=A.O(a9,20,a9)
 o=a8.r?a8.f*0.25:1/0
-o=A.f(B.P,A.dr("Select Location",a9,new A.asL(a8),a8.e),B.c,a9,a9,a9,a9,a9,a9,a9,a9,a9,o)
+o=A.f(B.P,A.dr("Select Location",a8.d,new A.asL(a8),a8.e),B.c,a9,a9,a9,a9,a9,a9,a9,a9,a9,o)
 n=A.O(a9,20,a9)
 m=A.f(B.P,B.WG,B.c,a9,a9,new A.R(B.B,a9,A.aw(B.z,0.5),a9,a9,a9,B.n),a9,a9,a9,new A.d(10,10,10,10),a9,a9,a9)
 l=A.O(a9,20,a9)
@@ -50927,7 +50935,7 @@ $0(){},
 $S:0}
 A.Bj.prototype={
 N(){var s=null,r="Please select",q=t.H7
-return new A.WW(A.b([],q),A.b([],q),A.ao(s),A.ao(s),new A.lv(r),new A.fx(s,r,s),new A.fx(s,r,s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),B.o)},
+return new A.WW([],[],[],A.b([],q),A.b([],q),A.ao(s),A.ao(s),new A.lv(r),new A.fx(s,r,s),new A.fx(s,r,s),A.ao(s),A.ao(s),A.ao(s),A.ao(s),B.o)},
 gcL(a){return this.c}}
 A.WW.prototype={
 X(){this.a9()
